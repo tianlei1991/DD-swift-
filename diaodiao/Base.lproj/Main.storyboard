@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="LnV-6L-RG1">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Tabbar View Controller-->
+        <scene sceneID="IOm-Uh-VV2">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="LnV-6L-RG1" customClass="DDTabbarViewController" customModule="diaodiao" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="jBg-gX-fSd">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="jip-NZ-p5d" kind="relationship" relationship="viewControllers" id="C6W-mc-7U9"/>
+                        <segue destination="XCF-UZ-JNc" kind="relationship" relationship="viewControllers" id="fO6-7t-8vJ"/>
+                        <segue destination="jPh-kN-cPN" kind="relationship" relationship="viewControllers" id="RYM-Z9-sFS"/>
+                        <segue destination="wxi-xI-g8Y" kind="relationship" relationship="viewControllers" id="NCG-3G-lPY"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1cb-Z9-awp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1375" y="554"/>
+        </scene>
+        <!--DiaoDiao-->
+        <scene sceneID="Wbv-wK-psw">
+            <objects>
+                <viewControllerPlaceholder storyboardName="DiaoDiao" id="GoV-GL-0bc" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="wCs-73-qbu"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7q4-o9-zWx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="393" y="1986"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="5vS-g2-Clo">
+            <objects>
+                <navigationController id="XCF-UZ-JNc" customClass="DDNavigationViewController" customModule="diaodiao" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="qMC-FP-YAA"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Twg-sI-1LK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="okD-Fg-12P" kind="relationship" relationship="rootViewController" id="mMv-XF-tlu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qRE-ml-wob" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1071" y="1493"/>
+        </scene>
+        <!--ZDM-->
+        <scene sceneID="9m0-RU-7dw">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ZDM" id="okD-Fg-12P" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="B4F-Xe-Kqb"/>
+                    <navigationItem key="navigationItem" id="hJX-Lj-Aq4"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8b2-Fl-umO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1071.5" y="1986"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="c0h-dW-2kZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="jPh-kN-cPN" customClass="DDNavigationViewController" customModule="diaodiao" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Mme-ZJ-D9P"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="m1W-7N-Jqb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9bV-eD-BCS" kind="relationship" relationship="rootViewController" id="8YG-9H-dHa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IJ7-Yn-u0d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1757" y="1493"/>
+        </scene>
+        <!--Discovery-->
+        <scene sceneID="IwB-wB-V1q">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Discovery" id="9bV-eD-BCS" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="OSu-9k-0Uf"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="29t-aU-JA7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1757" y="1986"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="rSS-ny-Rjs">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wxi-xI-g8Y" customClass="DDNavigationViewController" customModule="diaodiao" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="265-PG-Nxa"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ymp-5s-kUa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="VLC-ED-uAk" kind="relationship" relationship="rootViewController" id="nTz-9R-efR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QAg-Rh-T5c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2441" y="1493"/>
+        </scene>
+        <!--Me-->
+        <scene sceneID="SMx-K4-AN0">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Me" id="VLC-ED-uAk" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="d33-gE-Mdt"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kEQ-zg-mfU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2441.5" y="1986"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="239-vD-fFD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jip-NZ-p5d" customClass="DDNavigationViewController" customModule="diaodiao" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="oRB-vI-V9M"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" hidden="YES" contentMode="scaleToFill" id="Iiy-BT-DZ7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="GoV-GL-0bc" kind="relationship" relationship="rootViewController" id="3rm-bw-VGb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Egu-PG-Y0C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="393" y="1493"/>
+        </scene>
+    </scenes>
+</document>

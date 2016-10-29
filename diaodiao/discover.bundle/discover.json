@@ -1,0 +1,246 @@
+{
+    "activity": [
+                 {
+                 "action": "search",
+                 "target": "礼物",
+                 "background": {
+                 "type": "local_file",
+                 "file": "liwushaixuanqi.jpg"
+                 },
+                 "title": "礼物筛选器"
+                 },
+                 {
+                 "action": "navigate",
+                 "target": "http://c.diaox2.com/view/app/?m=tag&tid=100058",
+                 "background": {
+                 "type": "local_file",
+                 "file": "meiridiaodiao.jpg"
+                 },
+                 "title": "每日调调"
+                 },
+                 {
+                 "action": "navigate",
+                 "target": "http://c.diaox2.com/view/app/?m=tag&tid=100057",
+                 "background": {
+                 "type": "local_file",
+                 "file": "haowu.jpg"
+                 },
+                 "title": "好物"
+                 },
+                 {
+                 "action": "navigate",
+                 "target": "http://c.diaox2.com/view/app/?m=tag&tid=100060",
+                 "background": {
+                 "type": "local_file",
+                 "file": "zhuankan.jpg"
+                 },
+                 "title": "专刊"
+                 }
+                 ],
+    "tags": {
+        "layout": [
+                   {
+                   "l1":"100003",
+                   "l2":["100004","100005","100007", "100008", "100006"],
+                   },
+                   {
+                   "l1":"100033",
+                   "l2":["100035", "100034", "100036", "100037", "100039", "100040", "100041", "100038"]
+                   },
+                   {
+                   "l1":"100042",
+                   "l2":["100045", "100044", "100043"],
+                   },
+                   {
+                   "l1":"100016",
+                   "l2":["100018", "100019", "100017"],
+                   },
+                   {
+                   "l1":"100023",
+                   "l2":["100024", "100025", "100026"],
+                   },
+                   {
+                   "l1":"100009",
+                   "l2":["100010", "100011", "100012", "100013", "100014", "100015"],
+                   },
+                   {
+                   "l1":"100051",
+                   "l2":["100052", "100053", "100054","100055","100056"],
+                   },
+                   {
+                   "l1":"100046",
+                   "l2":["100047", "100048", "100049", "100050"],
+                   },
+                   {
+                   "l1":"100027",
+                   "l2":["100028","100029", "100032", "100030", "100031"],
+                   },
+                   {
+                   "l1":"100000",
+                   "l2":["100001","100002"],
+                   },
+                   {
+                   "l1":"100020",
+                   "l2":["100021","100022"]
+                   }
+                   ],
+        "meta": {
+            "100020":{"name":"汽车户外",
+                "background": {
+                    "type" : "local_file",
+                    "file" : "qchw.jpg"
+                },
+                "background_drawer": {
+                    "type" : "local_file",
+                    "file" : "qchwmohu.jpg"
+                }
+            },
+            "100021":{"name":"汽车用品"},
+            "100022":{"name":"户外用品"},
+            "100000":{"name":"母婴玩具",
+                "background": {
+                    "type" : "local_file",
+                    "file" : "mywj.jpg"
+                },
+                "background_drawer": {
+                    "type" : "local_file",
+                    "file" : "mywjmohu.jpg"
+                }
+            },
+            "100001":{"name":"母婴用品"},
+            "100002":{"name":"玩具周边"},
+            "100027":{"name":"吃喝旅行",
+                "background": {
+                    "type" : "local_file",
+                    "file" : "chlx.jpg"
+                },
+                "background_drawer": {
+                    "type" : "local_file",
+                    "file" : "chlxmohu.jpg"
+                }
+            },
+            "100028":{"name":"饮食文化"},
+            "100029":{"name":"休闲零食"},
+            "100030":{"name":"旅行用品"},
+            "100031":{"name":"旅游攻略"},
+            "100032":{"name":"茶酒咖啡"},
+            "100046":{"name":"运动健康",
+                "background": {
+                    "type" : "local_file",
+                    "file" : "ydjk.jpg"
+                },
+                "background_drawer": {
+                    "type" : "local_file",
+                    "file" : "ydjkmohu.jpg"
+                }
+            },
+            "100047":{"name":"运动装备"},
+            "100048":{"name":"健身器材"},
+            "100049":{"name":"健身常识"},
+            "100050":{"name":"医药保健"},
+            "100051":{"name":"科技数码",
+                "background": {
+                    "type" : "local_file",
+                    "file" : "kjsm.jpg"
+                },
+                "background_drawer": {
+                    "type" : "local_file",
+                    "file" : "kjsmmohu.jpg"
+                }
+            },
+            "100052":{"name":"手机周边"},
+            "100053":{"name":"电脑周边"},
+            "100054":{"name":"音乐设备"},
+            "100055":{"name":"照相摄影"},
+            "100056":{"name":"智能设备"},
+            "100009":{"name":"个护化妆",
+                "background": {
+                    "type" : "local_file",
+                    "file" : "ghhz.jpg"
+                },
+                "background_drawer": {
+                    "type" : "local_file",
+                    "file" : "ghhzmohu.jpg"
+                }
+            },
+            "100010":{"name":"口腔护理"},
+            "100011":{"name":"头发护理"},
+            "100012":{"name":"身体护理"},
+            "100013":{"name":"面部护肤"},
+            "100014":{"name":"香水彩妆"},
+            "100015":{"name":"美容工具"},
+            "100023":{"name":"时尚悦己",
+                "background": {
+                    "type" : "local_file",
+                    "file" : "ssyj.jpg"
+                },
+                "background_drawer": {
+                    "type" : "local_file",
+                    "file" : "ssyjmohu.jpg"
+                }
+            },
+            "100024":{"name":"女性时尚"},
+            "100025":{"name":"男性时尚"},
+            "100026":{"name":"箱包配饰"},
+            "100016":{"name":"办公用品",
+                "background": {
+                    "type" : "local_file",
+                    "file" : "bgyp.jpg"
+                },
+                "background_drawer": {
+                    "type" : "local_file",
+                    "file" : "bgypmohu.jpg"
+                }
+            },
+            "100017":{"name":"办公设备"},
+            "100018":{"name":"文具"},
+            "100019":{"name":"办公工具"},
+            "100042":{"name":"家用电器",
+                "background": {
+                    "type" : "local_file",
+                    "file" : "jydq.jpg"
+                },
+                "background_drawer": {
+                    "type" : "local_file",
+                    "file" : "jydqmohu.jpg"
+                }
+            },
+            "100043":{"name":"大家电"},
+            "100044":{"name":"厨房电器"},
+            "100045":{"name":"生活电器"},
+            "100003":{"name":"家居家装",
+                "background": {
+                    "type" : "local_file",
+                    "file" : "jjjz.jpg"
+                },
+                "background_drawer": {
+                    "type" : "local_file",
+                    "file" : "jjjzmohu.jpg"
+                }
+            },
+            "100004":{"name":"家具"},
+            "100005":{"name":"家纺布艺"},
+            "100006":{"name":"香氛香薰"},
+            "100007":{"name":"家装软饰"},
+            "100008":{"name":"照明灯具"},
+            "100033":{"name":"生活日用",
+                "background": {
+                    "type" : "local_file",
+                    "file" : "shry.jpg"
+                },
+                "background_drawer": {
+                    "type" : "local_file",
+                    "file" : "shrymohu.jpg"
+                }
+            },
+            "100034":{"name":"清洁用品"},
+            "100035":{"name":"餐具厨具"},
+            "100036":{"name":"收纳整理"},
+            "100037":{"name":"卫浴用品"},
+            "100038":{"name":"家用工具"},
+            "100039":{"name":"雨伞雨具"},
+            "100040":{"name":"钟表"},
+            "100041":{"name":"宠物用品"},
+        }
+    }
+}
